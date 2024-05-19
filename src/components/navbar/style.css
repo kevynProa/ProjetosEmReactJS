@@ -1,0 +1,25 @@
+.container{
+    padding: 0;
+    margin: 0;
+}
+.nav-container{
+    background-color: rgb(74, 74, 202);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 4px solid #fff;
+    border-radius: 10px;
+}
+.nav-container-list{
+    background-color: cadetblue;
+    display: flex;
+    width: auto;
+    height: 100%;
+    gap: 20px;
+    list-style: none;
+    padding-right: 40px;
+    border-radius: 8px 2px 8px 2px;
+}
+h2{
+    padding-left: 40px;
+}

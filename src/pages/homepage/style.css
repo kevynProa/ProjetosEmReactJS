@@ -1,0 +1,21 @@
+/* src/components/SimpleComponent.module.css */
+.container-txt {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .text {
+    font-size: 1.2em;
+    color: #666;
+  }
+  
