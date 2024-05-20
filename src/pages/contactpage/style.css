@@ -1,0 +1,40 @@
+.contact-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .square {
+    background-color: #ffffff;
+    border: 2px solid #28a745;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .square:hover {
+    transform: scale(1.05);
+  }
+  
+  .square h2 {
+    color: #28a745;
+    margin-bottom: 10px;
+  }
+  
+  .square p {
+    color: #555555;
+  }
+  
+  .square a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .square a:hover {
+    text-decoration: underline;
+  }
+  

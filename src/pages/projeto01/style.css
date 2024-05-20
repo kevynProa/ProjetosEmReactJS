@@ -1,0 +1,97 @@
+/* Centralizar o conteúdo da página */
+.container-tarefas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    width: 100%;
+    background-color: #f0f0f0;
+    border: 1px solid #529bd6;
+    border-radius: 8px;
+  }
+  
+  /* Estilização do componente da lista de tarefas */
+  .task-list {
+    background-color: #272626;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  /* Estilização do cabeçalho */
+  .task-list h2 {
+    margin-bottom: 20px;
+    color: #fff;
+    position: relative;
+    right: 20px;
+  }
+  
+  /* Estilização do contêiner de entrada */
+  .input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilização do campo de entrada de texto */
+  .input-container input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  /* Estilização do botão de adicionar */
+  .input-container button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .input-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilização da lista de tarefas */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Estilização dos itens da lista de tarefas */
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #424141;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilização do botão de remover */
+  .task-item button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff4d4d;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .task-item button:hover {
+    background-color: #cc0000;
+  }
+  
