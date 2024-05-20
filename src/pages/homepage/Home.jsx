@@ -7,7 +7,7 @@ const Home = () => {
     <div className='container-txt'>
       <h1 className='title'>Bem-vindo ao meu Componente Simples!</h1>
       <p className='text'>
-        Este é um componente de exemplo para estudar estilos em React usando CSS modules.
+        Este é um componente de exemplo para fins de estudos pessoais.
       </p>
     </div>
 
