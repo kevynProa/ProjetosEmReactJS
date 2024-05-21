@@ -10,9 +10,11 @@ import RelogioDigital from '../pages/projeto03/Projeto03';
 import ConversorDeMoedas from '../pages/projeto04/Projeto04';
 import Calculadora from '../pages/projeto05/Projeto05';
 import GaleriaDeImagens from '../pages/projeto06/Projeto06';
+import BuscaDeFilmes from '../pages/projeto07/Projeto07';
 
 //CONFIG REACT ROUTES
 import {  Route, Routes, } from 'react-router-dom'
+
 
 
 
@@ -34,6 +36,7 @@ const AppRouter = () => {
         <Route path="/projeto04" element={<ConversorDeMoedas/>} />
         <Route path="/projeto05" element={<Calculadora/>} />
         <Route path="/projeto06" element={<GaleriaDeImagens/>} />
+        <Route path="/projeto07" element={<BuscaDeFilmes/>} />
     </Routes>
 
   )

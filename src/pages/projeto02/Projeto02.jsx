@@ -1,5 +1,5 @@
 import React, { useState } from 'react'; 
-
+import './style.css'
   
 
 function Contador() { 
@@ -26,7 +26,7 @@ function Contador() {
 
   return ( 
 
-    <div> 
+    <div className='container-encrement'> 
 
       <h2>Contador</h2> 
 

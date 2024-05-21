@@ -1,5 +1,5 @@
 import React, { useState } from 'react'; 
-
+import './style.css'
   
 
 function Calculadora() { 
@@ -48,7 +48,7 @@ function Calculadora() {
 
   return ( 
 
-    <div> 
+    <div className='container-calculadora'> 
 
       <h2>Calculadora Simples</h2> 
 

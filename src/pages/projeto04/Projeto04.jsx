@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'; 
-
+import './style.css'
   
 
 function ConversorDeMoedas() { 
@@ -56,7 +56,7 @@ function ConversorDeMoedas() {
 
   return ( 
 
-    <div> 
+    <div className='container-dolar'> 
 
       <h2>Conversor de Moedas</h2> 
 

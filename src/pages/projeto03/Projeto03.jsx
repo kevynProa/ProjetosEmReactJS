@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'; 
-
+import './style.css'
   
 
 function RelogioDigital() { 
@@ -26,7 +26,7 @@ function RelogioDigital() {
 
   return ( 
 
-    <div> 
+    <div className='container-time'> 
 
       <h2>Relógio Digital</h2> 
 

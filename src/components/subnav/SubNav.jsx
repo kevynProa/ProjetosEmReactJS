@@ -26,7 +26,7 @@ const SubNav = () => {
       <Link to="/projeto06"> exercicio 6</Link>
     </li>
     <li>
-      <Link to="/profile"> exercicio 7</Link>
+      <Link to="/projeto07"> exercicio 7</Link>
     </li>
     <li>
       <Link to="/profile"> exercicio 8</Link>
